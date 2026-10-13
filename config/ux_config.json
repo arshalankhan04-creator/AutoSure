@@ -1,0 +1,34 @@
+{
+  "terminology": {
+    "sku": "Product Code",
+    "vin": "Vehicle ID",
+    "pos": "Quick Sale",
+    "service_order": "Work Order",
+    "customer_types": {
+      "wholesale": "Business",
+      "vip": "Premium",
+      "regular": "Standard"
+    }
+  },
+  "tooltips": {
+    "sku": "Unique code to identify this part in inventory",
+    "vin": "Unique 17-character identifier for the vehicle",
+    "product_code": "Unique code to identify this part in inventory",
+    "vehicle_id": "Unique 17-character identifier for the vehicle",
+    "reorder_level": "Stock quantity that triggers a reorder alert",
+    "customer_type": "Business: wholesale pricing, Premium: VIP benefits, Standard: regular pricing",
+    "work_order": "Service request for vehicle maintenance or repair",
+    "quick_sale": "Fast checkout for parts and services"
+  },
+  "auto_generation": {
+    "vin_pattern": "1HGBH41JXMN{random:6}",
+    "sku_pattern": "PART-{date:YYYYMMDD}-{seq:4}",
+    "order_pattern": "WO-{date:YYYYMMDD}-{seq:4}",
+    "invoice_pattern": "INV-{date:YYYYMMDD}-{seq:4}"
+  },
+  "defaults": {
+    "reorder_level": 10,
+    "tax_rate": 0.0,
+    "order_status": "pending"
+  }
+}
